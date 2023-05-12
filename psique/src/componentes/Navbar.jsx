@@ -8,6 +8,7 @@ import Agendamentos from "../assets/agendamento.svg";
 import Historico from "../assets/historico.svg";
 import Pacientes from "../assets/pacientes.svg";
 import Atendimentos from "../assets/atendimentos.svg";
+import Config from "../assets/config.svg"
 
 export default function Navbar() {
 
@@ -77,6 +78,21 @@ export default function Navbar() {
                         style={{ height: 50 , margin: 30}}
                     />
                 </a>
+            </div>
+
+            <div className="Config"
+                style={{
+                    display: "flex",
+                    flexDirection: "column",
+                    alignItems: "center",
+                    justifyContent: "center"
+                }}
+            >
+                <img
+                    src={Config}
+                    alt="Configurações"
+                    style={{ height: 50 , margin: 30}}
+                />
             </div>
 
         </div>
