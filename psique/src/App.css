@@ -2,6 +2,15 @@
   text-align: center;
 }
 
+.container{
+  display: flex;
+  flex-direction: column;
+}
+.singlePage{
+  display: flex;
+  flex-direction: row;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
