@@ -1,23 +1,10 @@
 import React from "react";
+import styles from "./Card.module.css";
 
-export default function Card({ userName, dataAtendimento, horaAtendimento, userDescription, buttonTitle, onPress }) {
+export default function Card({ userName, dataAtendimento, horaAtendimento, userDescription, buttonTitle, onClick }) {
     return (
-        <div
-            style={{
-                height: "100%",
-                // margin: 40,
-                padding: 20,
-                marginTop: 40,
-                marginInline: 100,
-                display: "flex",
-                flexDirection: "column",
-                alignItems: "center",
-                justifyContent: "center",
-                boxShadow: "2px 2px 5px 3px rgba(0,0,0,0.2)",
-                borderRadius: 8,
-            }}
-        >
-            <div style={{ display: "flex", flexDirection: "row" }}>
+        <div className={styles.card}>
+            <div className={styles.container}>
                 <div>
                     <div
                         style={{
@@ -31,31 +18,18 @@ export default function Card({ userName, dataAtendimento, horaAtendimento, userD
                     </div>
                 </div>
                 <div>
-                    <div>
-                        <div>
-                            <a>{userName}</a>
-                        </div>
-                        <div>
-                            <p>{dataAtendimento}</p>
-                            <p>{horaAtendimento}</p>
-                        </div>
+                    <a className={styles.title}>{userName}</a>
+                    <div className={styles.infos}>
+                        <p className={styles.title}>Data: </p>
+                        <p className={styles.titleInfos}>{dataAtendimento}</p>
+                        <p className={styles.title}>Hora: </p>
+                        <p className={styles.titleInfos}>{horaAtendimento}</p>
                     </div>
-                    <p>Informações do Perfil:</p>
-                    <p>{userDescription}</p>
+                    <p className={styles.title}>Informações do Perfil:</p>
+                    <p className={styles.userProfile}>{userDescription}</p>
                 </div>
             </div>
-            <button
-                style={{
-                    color: "#FFFFFF",
-                    fontFamily: "roboto",
-                    fontWeight: "bold",
-                    fontSize: 18,
-                    height: 40,
-                    paddingInline: 20,
-                    borderRadius: 20,
-                    backgroundColor: "#061a40"
-                }}
-            >
+            <button className={styles.button}>
                 {buttonTitle}
             </button>
         </div>

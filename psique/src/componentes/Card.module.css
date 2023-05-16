@@ -1,0 +1,55 @@
+.card {
+    max-height: 280px;
+    padding: 20px;
+    margin-top: 40px;
+    margin-inline: 160px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 2px 2px 5px 3px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+.button {
+    color: #FFFFFF;
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 22px;
+    padding: 5px;
+    padding-inline: 20px;
+    border-radius: 30px;
+    background-color: #061a40;
+    cursor: pointer;
+}
+
+.title {
+    color: #0e0e0e;
+    font-family: Roboto;
+    font-weight: 600;
+    font-size: 20px;
+    margin-inline-end: 10px;
+
+}
+
+.titleInfos {
+    color: #00c096;
+    font-family: Roboto;
+    font-size: 20px;
+    margin-inline-end: 10px;
+
+}
+
+.infos{
+    display: flex;
+    flex-direction: row;
+}
+
+.userProfile {
+    color: #0e0e0e;
+    font-family: Roboto;
+    font-size: 18px;
+}
