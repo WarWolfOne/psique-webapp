@@ -1,0 +1,24 @@
+.container {
+    height: 80px;
+    padding-inline: 20px;
+    background-color: #061A40;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.title {
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
+.profile {
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    margin-inline: 10px;
+    object-fit: cover;
+}
