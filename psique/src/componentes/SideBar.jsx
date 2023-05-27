@@ -18,54 +18,61 @@ export default function SideBar() {
 
     return (
         <div className={styles.container}>
-                <img
+            {/* <img
                     src={Menu}
                     alt="Menu"
                     className={styles.menu}
-                />
+                /> */}
 
             <div
                 className={styles.itens}
             >
-                <a>
+                <a className={styles.select}>
                     <img
                         src={Agendamentos}
                         alt="Proximos Agendamentos"
                         className={styles.icon}
                     />
+                    <text className={styles.title}>Próximos Agendamentos</text>
                 </a>
 
-                <a>
+                <a className={styles.select}>
                     <img
                         src={Historico}
                         alt="Historico de Atendimento"
                         className={styles.icon}
                     />
+                    <text className={styles.title}>Histórico</text>
                 </a>
 
-                <a>
+                <a className={styles.select}>
                     <img
                         src={Pacientes}
                         alt="Pacientes"
-                        className={styles.iconPacientes}
+                        className={styles.icon}
                     />
+                    <text className={styles.title}>Pacientes</text>
                 </a>
 
-                <a>
+                <a className={styles.select}>
                     <img
                         src={Atendimentos}
                         alt="Configurar meus horarios"
                         className={styles.icon}
                     />
+                    <text className={styles.title}>Meus Horários</text>
                 </a>
             </div>
 
             <div className={styles.config}>
-                <img
-                    src={Config}
-                    alt="Configurações"
-                    className={styles.icon}
-                />
+                <a className={styles.select}>
+                    <img
+                        src={Config}
+                        alt="Configurações"
+                        className={styles.icon}
+                    />
+                    <text className={styles.title}>Configurações</text>
+                </a>
             </div>
 
         </div>

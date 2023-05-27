@@ -1,9 +1,12 @@
 .card {
-    max-height: 280px;
+    min-width: 720px;
+    height: 100%;
     padding: 20px;
     margin-top: 40px;
-    margin-inline: 160px;
+    margin-inline: 110px;
     display: flex;
+    align-items: center;
+    justify-content: center;
     flex-direction: column;
     box-shadow: 2px 2px 5px 3px rgba(0, 0, 0, 0.2);
     border-radius: 8px;
@@ -19,11 +22,14 @@
     font-family: Roboto;
     font-weight: bold;
     font-size: 22px;
+    margin-top: 20px;
+    margin-bottom: 20px;
     padding: 5px;
     padding-inline: 20px;
     border-radius: 30px;
     background-color: #061a40;
     cursor: pointer;
+    border: none;
 }
 
 .title {
