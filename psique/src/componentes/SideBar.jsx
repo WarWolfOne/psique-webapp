@@ -27,52 +27,67 @@ export default function SideBar() {
             <div
                 className={styles.itens}
             >
-                <a className={styles.select}>
+                <Link 
+                    to="/" 
+                    className={styles.select}
+                >
                     <img
                         src={Agendamentos}
                         alt="Proximos Agendamentos"
                         className={styles.icon}
                     />
-                    <text className={styles.title}>Próximos Agendamentos</text>
-                </a>
+                    <text className={styles.title}>Próximos Atendimentos</text>
+                </Link>
 
-                <a className={styles.select}>
+                <Link 
+                    to="/historico" 
+                    className={styles.select}
+                >
                     <img
                         src={Historico}
                         alt="Historico de Atendimento"
                         className={styles.icon}
                     />
                     <text className={styles.title}>Histórico</text>
-                </a>
+                </Link>
 
-                <a className={styles.select}>
+                <Link 
+                    to="/pacientes" 
+                    className={styles.select}
+                >
                     <img
                         src={Pacientes}
                         alt="Pacientes"
                         className={styles.icon}
                     />
                     <text className={styles.title}>Pacientes</text>
-                </a>
+                </Link>
 
-                <a className={styles.select}>
+                <Link 
+                    to="/meus-horarios" 
+                    className={styles.select}
+                >
                     <img
                         src={Atendimentos}
                         alt="Configurar meus horarios"
                         className={styles.icon}
                     />
                     <text className={styles.title}>Meus Horários</text>
-                </a>
+                </Link>
             </div>
 
             <div className={styles.config}>
-                <a className={styles.select}>
+                <Link 
+                    to="/configuracoes" 
+                    className={styles.select}
+                >
                     <img
                         src={Config}
                         alt="Configurações"
                         className={styles.icon}
                     />
                     <text className={styles.title}>Configurações</text>
-                </a>
+                </Link>
             </div>
 
         </div>

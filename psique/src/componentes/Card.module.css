@@ -1,6 +1,4 @@
 .card {
-    min-width: 720px;
-    height: 100%;
     padding: 20px;
     margin-top: 40px;
     margin-inline: 110px;
@@ -10,6 +8,7 @@
     flex-direction: column;
     box-shadow: 2px 2px 5px 3px rgba(0, 0, 0, 0.2);
     border-radius: 8px;
+    position: absolute;
 }
 
 .container {
@@ -37,8 +36,10 @@
     font-family: Roboto;
     font-weight: 600;
     font-size: 20px;
+    text-align: start;
+    margin: 0px;
+    margin-top: 10px;
     margin-inline-end: 10px;
-
 }
 
 .titleInfos {

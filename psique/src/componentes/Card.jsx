@@ -18,7 +18,7 @@ export default function Card({ userName, dataAtendimento, horaAtendimento, userD
                     </div>
                 </div>
                 <div>
-                    <a className={styles.title}>{userName}</a>
+                    <p className={styles.title}>{userName}</p>
                     <div className={styles.infos}>
                         <p className={styles.title}>Data: </p>
                         <p className={styles.titleInfos}>{dataAtendimento}</p>
