@@ -1,9 +1,13 @@
 import '../index.css';
 import Card from '../componentes/Card';
+import PageTitle from '../componentes/PageTitle';
 
 function Home() {
   return (
-    <div>
+    <div className="container">
+      <PageTitle 
+        pageTitle="Próximas Sessões"
+      />
       <Card
         userName="Jõao da Silva"
         userDescription="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam suscipit tellus sit amet lacus consequat imperdiet.

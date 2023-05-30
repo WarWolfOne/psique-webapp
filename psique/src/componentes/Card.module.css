@@ -1,14 +1,15 @@
 .card {
+    width: auto;
     padding: 20px;
     margin-top: 40px;
-    margin-inline: 110px;
+    margin-inline: 80px;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     box-shadow: 2px 2px 5px 3px rgba(0, 0, 0, 0.2);
-    border-radius: 8px;
-    position: absolute;
+    border-radius: 16px;
+    background-color: #FFFFFF;
 }
 
 .container {

@@ -1,0 +1,9 @@
+.InputTypeB {
+    background-color: #FFFFFF;
+    width: 100%;
+    height: 40px;
+    border: solid 1px;
+    border-radius: 12px;
+    border-color: #d90368;
+    box-shadow: 2px 2px 5px 3px rgba(0, 0, 0, 0.2);
+}

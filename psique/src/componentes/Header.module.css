@@ -1,0 +1,29 @@
+.container {
+    height: 70px;
+    width: 100vw;
+    display: flex;
+    background-color: #061A40;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: 4px solid;
+    border-color: #d90368;
+    position: fixed;
+    z-index: 1001;
+}
+
+.title {
+    font-family: Roboto;
+    font-size: 28px;
+    font-weight: bold;
+    color: #FFFFFF;
+    margin-inline: 10px;
+}
+
+.profile {
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    margin-inline: 10px;
+    object-fit: cover;
+}

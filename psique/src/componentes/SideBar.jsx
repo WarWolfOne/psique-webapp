@@ -33,10 +33,10 @@ export default function SideBar() {
                 >
                     <img
                         src={Agendamentos}
-                        alt="Proximos Agendamentos"
+                        alt="Próximas Sessões"
                         className={styles.icon}
                     />
-                    <text className={styles.title}>Próximos Atendimentos</text>
+                    <text className={styles.title}>Próximas Sessões</text>
                 </Link>
 
                 <Link 

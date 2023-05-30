@@ -1,6 +1,9 @@
+import React from "react";
+// import "../css/Configuracoes.css";
+
 function Configuracoes() {
     return (
-        <text>Configurações</text>
+        <></>
     )
 }
 export default Configuracoes;
