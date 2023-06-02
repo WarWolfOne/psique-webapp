@@ -3,7 +3,7 @@ import {
 } from "react";
 import { Link } from "react-router-dom";
 import styles from "./Header.module.css";
-import Profile from "../assets/profile.png"
+import Profile from "../assets/user.png"
 
 export default function Header({ title, user }) {
     return (

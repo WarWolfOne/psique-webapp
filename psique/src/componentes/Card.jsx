@@ -1,21 +1,16 @@
 import React from "react";
 import styles from "./Card.module.css";
+import Profile from "../assets/user.png";
 
 export default function Card({ userName, dataAtendimento, horaAtendimento, userDescription, buttonTitle, onClick }) {
     return (
         <div className={styles.card}>
             <div className={styles.container}>
                 <div>
-                    <div
-                        style={{
-                            background: "#ECECEC",
-                            width: 80,
-                            height: 80,
-                            margin: 20
-                        }}
-                    >
-                        Perfil
-                    </div>
+                    <img 
+                        src={Profile}
+                        className={styles.Profile}
+                    />
                 </div>
                 <div>
                     <p className={styles.title}>{userName}</p>

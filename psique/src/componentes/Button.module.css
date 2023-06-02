@@ -1,0 +1,14 @@
+.Button{
+    color: #FFFFFF;
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 22px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding: 5px;
+    padding-inline: 20px;
+    border-radius: 30px;
+    background-color: #03045e;
+    cursor: pointer;
+    border: none;
+}
